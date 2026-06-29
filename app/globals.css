@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0C1410;
+  color: #E8E8E8;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0C1410;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1B4D3E;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C9A84C;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  letter-spacing: -1px;
+}
+
+/* Selection */
+::selection {
+  background-color: #1B4D3E;
+  color: #C9A84C;
+}
+
+/* Links */
+a {
+  color: #C9A84C;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #E8D5B7;
+}
+
+/* Buttons */
+button {
+  font-family: 'Inter', sans-serif;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
